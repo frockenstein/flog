@@ -1,0 +1,22 @@
+{
+  "name": "frocker",
+  "version": "0.0.1",
+  "description": "Blog like it's 1999",
+  "dependencies": {
+    "underscore": ">= 1.4.3",
+    "marked": ">= 0.2.6",
+    "mime": ">= 1.2.7",
+    "highlight.js": ">= 7.3.0",
+    "rss": ">= 0.0.4",
+    "mustache": "*",
+    "js-yaml": "*",
+    "moment": "*"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "keywords": [
+    "blog"
+  ],
+  "author": "Frock",
+  "license": "MIT"
+}

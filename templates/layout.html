@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>{{page.title}} - Slipangle.org</title>
+		<meta name="description" content="{{page.description}}">
+		<style type="text/css">
+		aside { width: 25%; float: right; }
+		</style>
+	</head>
+	<body>
+		<aside>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/blog/">Blog</a></li>
+				{{#nav}}
+				<li><a href="{{url}}">{{title}}</a></li>
+				{{/nav}}
+			</ul>
+		</aside>
+		<b>Born:</b> {{page.prettydate}} 
+		<b>Filed Under:</b>
+		{{#page.tags}}
+			<a href="/tags/{{.}}">{{.}}</a> 
+		{{/page.tags}}
+		
+		<h1>{{{page.title}}}</h1>
+		
+		{{{page.content}}}
+	</body>
+</html>
