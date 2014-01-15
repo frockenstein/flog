@@ -10,7 +10,9 @@
     "rss": ">= 0.0.4",
     "mustache": "*",
     "js-yaml": "*",
-    "moment": "*"
+    "moment": "*",
+    "less": "*",
+    "coffee-script": "*"
   },
   "devDependencies": {},
   "repository": "",

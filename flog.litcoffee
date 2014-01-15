@@ -1,11 +1,9 @@
 TODO:
 
-* gen css & js
-* new design
+* new/port design
 * rss feed
 * folder/file structure that'll work for s3
 * sync to s3
-* GA
 * move domain
 
 Requires
@@ -63,6 +61,14 @@ Strips html and chops a hunk of text down to ~ x chars
 		return text if text.length < length
 		text = text.substring(0, length)
 		text.substring(0, text.lastIndexOf(' ')) + ' ...'
+
+	buildAssets = ->
+		cp.exec "lessc static/style.less static/style.css", (error, stdout, stderr) ->
+			log error if error?
+		log 'css built'
+		cp.exec "coffee -o static/ static/scripts/app.coffee", (error, stdout, stderr) ->
+			log error if error?
+		log 'js built'
 		
 Let's get ta bidness
 --------------------
@@ -106,7 +112,8 @@ from it (https://npmjs.org/package/yaml-front-matter)
 			url: "/#{dir}/#{path.basename(file, ext)}/"
 
 			prettydate: () -> 
-				# context might be page.date or just this.date...
+				# context might be page.date or just this.date, 
+				# hence (@page or @)
 				(@page or @).date.format('MMM. Do, YYYY')
 		
 		# special case for pages files
@@ -137,6 +144,8 @@ Starts up a preview server to mimic the static site. Great with [Nodemon](https:
 	
 	preview = ->
 
+		do buildAssets
+
 		server = http.createServer (req, res) ->
 
 			# strip querystring off and decode
@@ -144,17 +153,18 @@ Starts up a preview server to mimic the static site. Great with [Nodemon](https:
 
 			# figure out what we're looking for
 			file = parsedurl.slice(1) or 'index'
-			if file.indexOf('/') < 1 and file isnt 'index' then file = "pages/#{file}"
-			
+
+			log file
+
+			# get out early if it's static file request
+			isStatic = file.match /(images\/|\.js|\.css)/i
+
 			# don't care about this
 			return if file is 'pages/favicon.ico'
 
-			log "Requested: #{file}"
-
-Anything in these dirs is considered static - stream them and get out
-
-			if file.match /(images|css|js)\//i
+			if isStatic
 				staticfile = "static/#{file}"
+				log staticfile
 				if fs.existsSync staticfile
 					res.writeHead 200, 'Content-Type': mime.lookup(staticfile)
 					fs.createReadStream(staticfile).pipe res
@@ -162,6 +172,13 @@ Anything in these dirs is considered static - stream them and get out
 					res.writeHead 404
 					res.end()
 				return
+
+			# assume next that we're looking for a page
+			if file.indexOf('/') < 1 and file isnt 'index' then file = "pages/#{file}"
+
+			log "Requested: #{file}"
+
+Anything in these dirs is considered static - stream them and get out
 
 			entries = getEntries()
 			page = {}

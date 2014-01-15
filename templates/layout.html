@@ -1,29 +1,78 @@
 <html>
-	<head>
-		<title>{{page.title}} - Slipangle.org</title>
-		<meta name="description" content="{{page.description}}">
-		<style type="text/css">
-		aside { width: 25%; float: right; }
-		</style>
-	</head>
-	<body>
-		<aside>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/blog/">Blog</a></li>
-				{{#nav}}
-				<li><a href="{{url}}">{{title}}</a></li>
-				{{/nav}}
-			</ul>
-		</aside>
-		<b>Born:</b> {{page.prettydate}} 
-		<b>Filed Under:</b>
-		{{#page.tags}}
-			<a href="/tags/{{.}}">{{.}}</a> 
-		{{/page.tags}}
-		
-		<h1>{{{page.title}}}</h1>
-		
-		{{{page.content}}}
-	</body>
+
+<head>
+    <title>{{page.title}} - Slipangle.org</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="verify-v1" content="2aQ5ETkQHVEPa06TZkKI8KNrZi4qLK65w7LKCER19Pk=" />
+    <meta name="description" content="{{page.description}}">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1365787-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <div id="container">
+        <header>
+            <a title="sad, but true... click to go home" href="/">
+                <img border="0" src="/images/evolution.jpg" alt="we've come a long way baby!" id="evolution" />
+            </a>
+            <h1>
+                <a title="Slipangle.org home" href="/" accesskey="h">slipangle.org</a>
+            </h1>
+        </header>
+        <aside id="nav">
+            <div id="tools">
+                <div id="search">
+                    <form method="get" action="http://www.google.com/search">
+                        <input class="text" type="text" name="q" size="15" maxlength="255" value="" />
+                        <input type="hidden" name="sitesearch" value="slipangle.org" />
+                        <input type="submit" value="Search" />
+                    </form>
+                </div>
+
+                <div id="follow">
+                    Follow me:
+                    <a rel="external nofollow" href="http://feedproxy.google.com/Slipangle">RSS</a> |
+                    <a rel="external nofollow" href="http://feedburner.google.com/fb/a/mailverify?uri=Slipangle&amp;loc=en_US">Email</a> |
+                    <a rel="external nofollow" href="http://www.twitter.com/frockenstein">Twitter</a>
+                </div>
+            </div>
+            <ul>
+                <li><a href="/">Home</a>
+                </li>
+                <li><a href="/blog/">Blog</a>
+                </li>
+                {{#nav}}
+                <li><a href="{{url}}">{{title}}</a>
+                </li>
+                {{/nav}}
+            </ul>
+        </aside>
+
+        <div class="entry-meta"><b>Born:</b> {{page.prettydate}}
+            <b>Filed Under:</b>
+            {{#page.tags}}
+            <a href="/tags/{{.}}">{{.}}</a> {{/page.tags}}
+        </div>
+        <div id="entry-container">
+            <h1>{{{page.title}}}</h1>
+            {{{page.content}}}
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+
 </html>
