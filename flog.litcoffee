@@ -13,6 +13,7 @@ Requires
 
 	fs = require 'fs'
 	path = require 'path'
+	url = require 'url'
 	http = require 'http'
 	cp = require 'child_process'
 
@@ -138,8 +139,11 @@ Starts up a preview server to mimic the static site. Great with [Nodemon](https:
 
 		server = http.createServer (req, res) ->
 
+			# strip querystring off and decode
+			parsedurl = decodeURIComponent(url.parse(req.url).pathname)
+
 			# figure out what we're looking for
-			file = req.url.slice(1) or 'index'
+			file = parsedurl.slice(1) or 'index'
 			if file.indexOf('/') < 1 and file isnt 'index' then file = "pages/#{file}"
 			
 			# don't care about this
@@ -151,9 +155,12 @@ Anything in these dirs is considered static - stream them and get out
 
 			if file.match /(images|css|js)\//i
 				staticfile = "static/#{file}"
-				log "Static file: #{staticfile}"
-				res.writeHead 200, 'Content-Type': mime.lookup(staticfile)
-				fs.createReadStream(staticfile).pipe res
+				if fs.existsSync staticfile
+					res.writeHead 200, 'Content-Type': mime.lookup(staticfile)
+					fs.createReadStream(staticfile).pipe res
+				else
+					res.writeHead 404
+					res.end()
 				return
 
 			entries = getEntries()
