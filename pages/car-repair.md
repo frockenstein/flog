@@ -1,15 +1,19 @@
+---
+date: 2008-11-04 12:35:03.111873
+title: Car Repair
+---
 <div class="google">
-				<script type="text/javascript">
-						<!--
-						google_ad_client = "pub-9671662461133942";
-						//120x600, created 11/22/07
-						google_ad_slot = "2531976014";
-						google_ad_width = 120;
-						google_ad_height = 600;
-						//-->
-				</script>
-				<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-		</div>      
+		<script type="text/javascript">
+				<!--
+				google_ad_client = "pub-9671662461133942";
+				//120x600, created 11/22/07
+				google_ad_slot = "2531976014";
+				google_ad_width = 120;
+				google_ad_height = 600;
+				//-->
+		</script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>      
 <div id="pagecontent">
         <h3>Tips</h3>
         <ul>

@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 <p>Neat trick for <code>for</code> loops that sets the iterated variable for you:</p>
 <pre class="code">
 for (var i = 0, o; o = all[i]; i++) {

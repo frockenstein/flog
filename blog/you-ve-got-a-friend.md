@@ -1,0 +1,5 @@
+---
+date: 2009-10-19 16:06:32.706223
+title: You've Got A Friend
+---
+Everytime I hear this song I think it'd make a good alcohol commercial. So this weekend I dug a bunch of pics up and made my own commercial: <br /> <OBJECT CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab" WIDTH="450" HEIGHT="456" > <PARAM NAME="src" VALUE="http://frockenstein-misc.s3.amazonaws.com/YouveGotAFriend.m4v"> <PARAM NAME="autoplay" VALUE="true"> <PARAM NAME="controller" value="true"> <EMBED SRC="QTMimeType.pntg" TYPE="image/x-macpaint" PLUGINSPAGE="http://www.apple.com/quicktime/download" QTSRC="http://frockenstein-misc.s3.amazonaws.com/YouveGotAFriend.m4v" WIDTH="450" HEIGHT="456" AUTOPLAY="true" CONTROLLER="true"> </EMBED> </OBJECT> <br /> Violates a few copyrights and a couple morals, but it needed to be made.

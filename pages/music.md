@@ -1,8 +1,8 @@
 ---
 title: Music
 description: songs and shit
-date: 1/1/2009
-tags: [music, shit, stuff]
+date: 2008-11-04 12:45:40.611687
+tags: [music]
 ---
 
 <div id="music">

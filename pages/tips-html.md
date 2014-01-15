@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 This is mainly a reference for me, but might come in handy for other folks looking for oddball HTML entities and things.
  
 <h3>Musical Entities (who knew?!)</h3> 

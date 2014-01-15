@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 I'm a big fan of phrases, countryisms, and metaphors, so I catalog them here as I find them. (newest first)
 
 <ul>

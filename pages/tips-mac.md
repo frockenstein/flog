@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 <p>I jumped ship from Windows to Mac, so I'm trying to keep track of the tips and tricks I learn as I go. I doubt there's anything groundbreaking here, but if you're a Mac newbie like I am, they might be of some use. <b>I'm on 10.5 Leopard, so they might be different if you have an older version</b>.</p>
 
 <h3>Finder Tips</h3>

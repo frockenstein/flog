@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 <p>Since I'm new to Python, I'm using this as a place to jot down tips and neat ways to do things. I doubt anything here will be groundbreaking, but for a newbie, might be of some use. <b>I'm using Python 2.5 - I have no idea if this 
 works for previous versions</b>.</p>
 

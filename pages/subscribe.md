@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 <h2>Join The List!</h2>
 
 <p>If you wanna be in the know about our upcoming gigs and anything else of mild interest, commence to adding your email forthwith:</p>

@@ -1,3 +1,8 @@
+---
+date: 2008-11-04 12:51:11.620632
+title: 
+tags:
+---
 This is gonna be pretty scattershot, but I need a place to jot down ideas and thoughts I have overtime. If any of these interest you, <a href="/tags/life">you might dig my blog entries tagged "life"</a>.<br /><br />
 ***
 <p>Truth comes as conqueror only to those who have lost the art of receiving it as a friend</p>

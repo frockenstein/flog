@@ -1,7 +1,7 @@
 ---
-date: 1/1/2001
-title: title from page
-tags: [life, cars, music]
+date: 2008-11-19 13:37:49.807496
+title: About
+tags: [tech, python, appengine, git, life]
 other: thing
 otherthing:
 - thing
