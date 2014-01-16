@@ -16,7 +16,7 @@ Requires
 	cp = require 'child_process'
 
 Extra stuff from npm
-	
+
 	_ = require 'underscore'
 	mime = require 'mime'
 
@@ -69,7 +69,7 @@ Strips html and chops a hunk of text down to ~ x chars
 		cp.exec "coffee -o static/ static/scripts/app.coffee", (error, stdout, stderr) ->
 			log error if error?
 		log 'js built'
-		
+
 Let's get ta bidness
 --------------------
 
@@ -78,9 +78,9 @@ Builds an array of all the blog and page entries
 	getEntries = ->
 		db = []
 		for dir in ['pages', 'blog']
-			files = fs.readdirSync(dir).filter (f) -> 
+			files = fs.readdirSync(dir).filter (f) ->
 				path.extname(f) in ['.md', '.html']
-			
+
 			for file in files
 				db.push getMeta "#{dir}/#{file}"
 		return db
@@ -92,56 +92,66 @@ from it (https://npmjs.org/package/yaml-front-matter)
 		stat = fs.statSync file
 		ext = path.extname(file)
 		dir = path.dirname(file)
-		
-		
+
 		# set up some defaults
-		meta = 
+		meta =
 			# poor man's category
 			category: dir
-			
+
 			# id is filename
 			id: path.basename(file)
-			
+
 			# start out with create date (may override w front matter)
 			date: moment(stat.ctime)
-			
+
 			# use filename minus extension if nothing else
 			title: path.basename(file, ext)
-			
+
 			# pages/about.md becomes /pages/about/
 			url: "/#{dir}/#{path.basename(file, ext)}/"
 
-			prettydate: () -> 
-				# context might be page.date or just this.date, 
+			prettydate: () ->
+				# context might be page.date or just this.date,
 				# hence (@page or @)
-				(@page or @).date.format('MMM. Do, YYYY')
-		
+				(@page or @)?.date?.format('MMM. Do, YYYY')
+
+			showtags: () ->
+				(@page or @)?.tags?.length > 0
+
 		# special case for pages files
 		if dir is 'pages'
 			meta.url = "/#{path.basename(file, ext)}"
 
 		# read the text - this covers .html files too
 		meta.content = fs.readFileSync(file).toString()
-		
+
 		if ext is '.md'
 			# grab front matter
 			re = /^-{3}([\s\S]+?)-{3}([\s\S]*)$/
 			matches = meta.content.match re
-			if matches 
+			if matches
 				# load front matter
 				fm = yaml.load matches[1]
-				fm.date = moment(fm.date)
+
+				# if we have a front matter date, and it's valid set it
+				date = moment(fm.date)
+				if date.isValid() then fm.date = date
+
+				# so that extend won't overwrite ctime date
+				if fm?.date is null then delete fm.date
+
 				# merge it with existing meta, front matter overrides
 				_.extend(meta, fm)
 				# the rest is the markdown content
 				meta.content = matches[2]
-			
+
 			meta.content = marked(meta.content)
 
 		return meta
 
-Starts up a preview server to mimic the static site. Great with [Nodemon](https://github.com/remy/nodemon)
-	
+Starts up a preview server to mimic the static site.
+Great with [Nodemon](https://github.com/remy/nodemon)
+
 	preview = ->
 
 		do buildAssets
@@ -154,17 +164,11 @@ Starts up a preview server to mimic the static site. Great with [Nodemon](https:
 			# figure out what we're looking for
 			file = parsedurl.slice(1) or 'index'
 
-			log file
-
-			# get out early if it's static file request
-			isStatic = file.match /(images\/|\.js|\.css)/i
-
 			# don't care about this
 			return if file is 'pages/favicon.ico'
 
-			if isStatic
+			if file.match /(images\/|\.js|\.css)/i
 				staticfile = "static/#{file}"
-				log staticfile
 				if fs.existsSync staticfile
 					res.writeHead 200, 'Content-Type': mime.lookup(staticfile)
 					fs.createReadStream(staticfile).pipe res
@@ -192,16 +196,16 @@ Grab all the tags from the "db" and display an index of uniques
 
 					# grab all tags from entries
 					tags = _.pluck(entries, 'tags')
-					
+
 					# remove falsy values
 					tags = _.compact(tags)
-					
+
 					# flatten array of arrays down to single
 					tags = _.flatten(tags)
-					
+
 					# merge all vals down to uniques
 					tags = _.union(tags)
-					
+
 					page =
 						content: render 'templates/tags.html', { tags: tags }
 						title: 'All tags'
@@ -212,11 +216,11 @@ Find all pages by tag
 				else
 					pages = entries.filter (f) -> f.tags?.indexOf(tag)
 					template = '{{#pages}}<a href="{{url}}">{{title}}</a><br>{{/pages}}'
-					page = 
+					page =
 						content: render template, { pages: pages }
 						title: "Entries about #{tag}"
 						description: "All entries tagged #{tag}"
-			
+
 Find all blog entries and create an index
 
 			else if file.match /blog\/$/
@@ -224,7 +228,7 @@ Find all blog entries and create an index
 				pages = _.sortBy(pages, (x) -> -x.date.toDate().getTime())
 				pages.forEach (x) -> x.excerpt = excerpt(x.content)
 				template = 'templates/blog.html'
-				page = 
+				page =
 					content: render template, { pages: pages }
 					title: "All entries, newest first"
 					description: "All blog entries, newest first"
@@ -232,11 +236,11 @@ Find all blog entries and create an index
 Render the home page
 
 			else if file is 'index'
-				page = 
+				page =
 					content: render 'templates/index.html'
 					title: 'site title'
 					description: 'site description'
-			
+
 Render a specific page, or 404 if nothing found that matches url/path
 
 			else
@@ -246,7 +250,7 @@ Render a specific page, or 404 if nothing found that matches url/path
 				unless page
 					page = _.find entries, (f) -> f.id is "404.html"
 					statusCode = 404
-			
+
 			# only pages in the nav
 			nav = entries.filter (f) -> f.category is 'pages' and f.id isnt '404.html'
 

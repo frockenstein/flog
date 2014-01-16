@@ -1,6 +1,7 @@
 ---
 date: 2008-11-04 12:35:03.111873
 title: Car Repair
+tags: cars
 ---
 <div class="google">
 		<script type="text/javascript">
@@ -13,7 +14,7 @@ title: Car Repair
 				//-->
 		</script>
 		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-</div>      
+</div>
 <div id="pagecontent">
         <h3>Tips</h3>
         <ul>

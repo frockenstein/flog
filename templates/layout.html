@@ -61,14 +61,22 @@
             </ul>
         </aside>
 
-        <div class="entry-meta"><b>Born:</b> {{page.prettydate}}
-            <b>Filed Under:</b>
-            {{#page.tags}}
-            <a href="/tags/{{.}}">{{.}}</a> {{/page.tags}}
-        </div>
-        <div id="entry-container">
-            <h1>{{{page.title}}}</h1>
-            {{{page.content}}}
+        <div id="content">
+            <div class="entry-meta">
+                {{#page.prettydate}}
+                <b>Born:</b> {{page.prettydate}}
+                {{/page.prettydate}}
+
+                {{#page.showtags}}
+                <b>Filed Under:</b>
+
+                {{#page.tags}}<a href="/tags/{{.}}">{{.}}</a> {{/page.tags}}
+                {{/page.showtags}}
+            </div>
+            <div id="entry-container">
+                <h1>{{{page.title}}}</h1>
+                {{{page.content}}}
+            </div>
         </div>
     </div>
 
