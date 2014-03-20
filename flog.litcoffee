@@ -50,6 +50,7 @@ Helpers
 Facade that'll figure out if you give it a filename, or template string
 
 	render = (template, data = {}) ->
+		# looks like a file
 		if template.match /^[a-zA-Z_\/\.]+/
 			template = fs.readFileSync(template).toString()
 		stache.render template, data
@@ -142,6 +143,7 @@ from it (https://npmjs.org/package/yaml-front-matter)
 
 				# merge it with existing meta, front matter overrides
 				_.extend(meta, fm)
+
 				# the rest is the markdown content
 				meta.content = matches[2]
 
@@ -151,6 +153,12 @@ from it (https://npmjs.org/package/yaml-front-matter)
 
 Starts up a preview server to mimic the static site.
 Great with [Nodemon](https://github.com/remy/nodemon)
+
+	build = ->
+		do buildAssets
+		cp.exec 'cp -r static/images output/images'
+		cp.exec 'cp -r static/style.css output/style.css'
+		cp.exec 'cp -r static/app.js output/app.js'
 
 	preview = ->
 
@@ -167,6 +175,8 @@ Great with [Nodemon](https://github.com/remy/nodemon)
 			# don't care about this
 			return if file is 'pages/favicon.ico'
 
+Anything in these dirs is considered static - stream them and get out
+
 			if file.match /(images\/|\.js|\.css)/i
 				staticfile = "static/#{file}"
 				if fs.existsSync staticfile
@@ -181,8 +191,6 @@ Great with [Nodemon](https://github.com/remy/nodemon)
 			if file.indexOf('/') < 1 and file isnt 'index' then file = "pages/#{file}"
 
 			log "Requested: #{file}"
-
-Anything in these dirs is considered static - stream them and get out
 
 			entries = getEntries()
 			page = {}
@@ -262,4 +270,4 @@ Render a specific page, or 404 if nothing found that matches url/path
 		#cp.exec "open http://localhost:#{port}/about"
 		log "Server started on port #{port}"
 
-	do preview
+	do build
