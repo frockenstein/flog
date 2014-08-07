@@ -45,8 +45,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "coffee flog.coffee",
+    "prepublish": "grunt --env production",
     "preinstall": "echo here it comes",
-    "postinstall": "echo there it goes && ./node_modules/grunt/bin/grunt"
+    "postinstall": "echo there it goes"
   },
   "bugs": {
     "url": "https://github.com/frockenstein/flog/issues"
