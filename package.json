@@ -1,7 +1,11 @@
 {
-  "name": "frocker",
+  "name": "flog",
   "version": "0.0.1",
+  "private": true,
   "description": "Blog like it's 1999",
+  "engines": {
+    "node": "0.10.x"
+  },
   "dependencies": {
     "underscore": ">= 1.4.3",
     "marked": ">= 0.2.6",
