@@ -1,7 +1,7 @@
 {
   "name": "flog",
   "version": "0.0.1",
-  "private": true,
+  "private": "true",
   "description": "Blog like it's 1999",
   "engines": {
     "node": "0.10.x"
@@ -16,7 +16,7 @@
     "js-yaml": "*",
     "moment": "*",
     "less": "*",
-    "coffee-script": "*",
+    "coffee-script": "~1.7.1",
     "express": "~4.4.2",
     "glob": "~4.0.4"
   },
@@ -42,7 +42,9 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "coffee flog.coffee"
+    "start": "coffee flog.coffee",
+    "preinstall": "echo here it comes",
+    "postinstall": "echo there it goes"
   },
   "bugs": {
     "url": "https://github.com/frockenstein/flog/issues"
