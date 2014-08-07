@@ -42,7 +42,7 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node flog.coffee"
+    "start": "coffee flog.coffee"
   },
   "bugs": {
     "url": "https://github.com/frockenstein/flog/issues"
