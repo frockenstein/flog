@@ -1,10 +1,11 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>{{page.title}} - Slipangle.org</title>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="verify-v1" content="2aQ5ETkQHVEPa06TZkKI8KNrZi4qLK65w7LKCER19Pk=" />
-    <meta name="description" content="{{page.description}}">
+    <title>{{meta.title}} - Slipangle.org</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="{{meta.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
@@ -32,53 +33,31 @@
                 <a title="Slipangle.org home" href="/" accesskey="h">slipangle.org</a>
             </h1>
         </header>
-        <aside id="nav">
-            <div id="tools">
-                <div id="search">
-                    <form method="get" action="http://www.google.com/search">
-                        <input class="text" type="text" name="q" size="15" maxlength="255" value="" />
-                        <input type="hidden" name="sitesearch" value="slipangle.org" />
-                        <input type="submit" value="Search" />
-                    </form>
-                </div>
 
-                <div id="follow">
-                    Follow me:
-                    <a rel="external nofollow" href="http://feedproxy.google.com/Slipangle">RSS</a> |
-                    <a rel="external nofollow" href="http://feedburner.google.com/fb/a/mailverify?uri=Slipangle&amp;loc=en_US">Email</a> |
-                    <a rel="external nofollow" href="http://www.twitter.com/frockenstein">Twitter</a>
-                </div>
-            </div>
-            <ul>
-                <li><a href="/">Home</a>
-                </li>
-                <li><a href="/blog/">Blog</a>
-                </li>
-                {{#nav}}
-                <li><a href="{{url}}">{{title}}</a>
-                </li>
-                {{/nav}}
-            </ul>
-        </aside>
-
-        <div id="content">
+        <article>
             <div class="entry-meta">
-                {{#page.prettydate}}
-                <b>Born:</b> {{page.prettydate}}
-                {{/page.prettydate}}
+                {{#meta.prettydate}}
+                <b>Born:</b> {{meta.prettydate}}
+                {{/meta.prettydate}}
 
-                {{#page.showtags}}
-                <b>Filed Under:</b>
+                {{#meta.showtags}}
+                    <div class="entry-meta-tags">
+                        <b>Filed Under:</b>
 
-                {{#page.tags}}<a href="/tags/{{.}}">{{.}}</a> {{/page.tags}}
-                {{/page.showtags}}
+                        {{#meta.tags}}<a href="/tags/{{.}}">{{.}}</a> {{/meta.tags}}
+                    </div>
+                {{/meta.showtags}}
             </div>
             <div id="entry-container">
-                <h1>{{{page.title}}}</h1>
-                {{{page.content}}}
+                <h1>{{{meta.title}}}</h1>
+                {{{body}}}
             </div>
-        </div>
-    </div>
+        </article>
+        <footer>
+            Thanks for reading! I'm also <a href="https://twitter.com/frockenstein">@frockenstein</a> on Twitter.
+        </footer>
+    </div> <!-- /.container -->
+
 
     <script src="/app.js"></script>
 </body>

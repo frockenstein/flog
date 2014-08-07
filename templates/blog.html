@@ -1,5 +1,7 @@
 {{#pages}}
-	<p><a href="{{url}}">{{title}}</a> - {{prettydate}}<br>
-	{{{excerpt}}}
-	</p>
+	<div class="blog-item">
+		<a href="{{url}}">{{title}}</a>
+		<div class="blog-date">{{prettydate}}</div>
+		{{{excerpt}}}
+	</div>
 {{/pages}}

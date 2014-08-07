@@ -10,6 +10,8 @@ otherthing:
 
 ### yo!
 
+[hamming systems](/notes/hamming-systems)
+
 <img src="/images/me.jpg" alt="Yours Truly" style="float:right;margin-left:20px;border:1px solid #000"/>
 
 

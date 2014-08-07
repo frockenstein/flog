@@ -12,13 +12,35 @@
     "js-yaml": "*",
     "moment": "*",
     "less": "*",
-    "coffee-script": "*"
+    "coffee-script": "*",
+    "express": "~4.4.2",
+    "glob": "~4.0.4"
   },
-  "devDependencies": {},
-  "repository": "",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-less": "~0.11.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "chalk": "~0.5.1",
+    "lodash": "~2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frockenstein/flog.git"
+  },
   "keywords": [
     "blog"
   ],
   "author": "Frock",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/frockenstein/flog/issues"
+  },
+  "homepage": "https://github.com/frockenstein/flog"
 }
