@@ -1,3 +1,7 @@
+---
+title: Richard Hamming - You and Your Research
+tags: [notes, hamming]
+---
 # Richard Hamming - [You and Your Research](http://www.youtube.com/watch?v=a1zDuOPkMSw)
 
 ## Intro

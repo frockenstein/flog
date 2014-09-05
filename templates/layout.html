@@ -35,26 +35,27 @@
         </header>
 
         <article>
-            <div class="entry-meta">
-                {{#meta.prettydate}}
-                <b>Born:</b> {{meta.prettydate}}
-                {{/meta.prettydate}}
 
-                {{#meta.showtags}}
-                    <div class="entry-meta-tags">
-                        <b>Filed Under:</b>
-
-                        {{#meta.tags}}<a href="/tags/{{.}}">{{.}}</a> {{/meta.tags}}
-                    </div>
-                {{/meta.showtags}}
-            </div>
             <div id="entry-container">
                 <h1>{{{meta.title}}}</h1>
+                <div class="entry-meta">
+                    {{#meta.prettydate}}
+                    <b>Born:</b> {{meta.prettydate}}
+                    {{/meta.prettydate}}
+
+                    {{#meta.showtags}}
+                        <div class="entry-meta-tags">
+                            <b>Filed Under:</b>
+
+                            {{#meta.tags}}<a href="/tags/{{.}}">{{.}}</a> {{/meta.tags}}
+                        </div>
+                    {{/meta.showtags}}
+                </div>
                 {{{body}}}
             </div>
         </article>
         <footer>
-            Thanks for reading! I'm also <a href="https://twitter.com/frockenstein">@frockenstein</a> on Twitter.
+            You made it! Hit up <a href="https://twitter.com/frockenstein">@frockenstein</a> for updates.
         </footer>
     </div> <!-- /.container -->
 
