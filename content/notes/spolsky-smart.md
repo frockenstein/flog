@@ -53,7 +53,7 @@ Generally a bad source of hires:
 
 ### Private offices
 
-See Peopleware [[Amazon]](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113/ref=sr_1_1?ie=UTF8&qid=1409879935&sr=8-1&keywords=peopleware) [[my notes]](#todo). Programmers do best in quiet, uninterrupted space.
+See Peopleware [[Amazon]](http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113/ref=sr_1_1?ie=UTF8&qid=1409879935&sr=8-1&keywords=peopleware) [[my notes]](/notes/peopleware). Programmers do best in quiet, uninterrupted space.
 
 ### Physical Space
 
