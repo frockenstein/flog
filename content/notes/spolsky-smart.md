@@ -134,7 +134,7 @@ The good thing about 'em is it's hard to form snap visual judgements on people. 
 
 * Career history and personal info. Drill into:
 
-	* **Tech**: if they say the worked on/with something, dig in. Sole person? Team member? Drill into the tech/lang if at all possible and figure out if they're bluffing.
+	* **Tech**: if they say they worked on/with something, dig in. Sole person? Team member? Drill into the tech/lang if at all possible and figure out if they're bluffing.
 
 	* **Politics**: what's the backstory to some of the work? If they "drove" something, dig into that. Who's idea? Who convinced whom? Challenges?
 
@@ -161,7 +161,7 @@ You're gonna run the spectrum of totally unqualified to awesome. *The trick is t
 
 At the end, be prepared to make a sharp decision about them: Hire or No Hire. There is no other answer. *Never say "hire, but not for my team". That means No Hire. A candidate that would be brilliant for one particular task, but not overall is No Hire.
 
-> p. 95 In software, things change so often and so rapidly that you need peopl ewho can succeed at just about any programming task that you throw at them.
+> p. 95 In software, things change so often and so rapidly that you need people who can succeed at just about any programming task that you throw at them.
 
 Never say "maybe, I can't tell". That's No Hire. On the fence? No Hire. Mechanically translate all the waffling into "no" and you'll be alright.
 
@@ -171,7 +171,7 @@ Why so hard-nosed? It's much, much better to reject a good candidate than hire a
 
 *Smart People, who don't Get Things Done* tend to drone on about academic things, or show up with a cup of coffee and start a long convo about BS like "Java introspection vs COM libs".
 
-> p 98: *People who Get Things Done but aren't Smart* will tend to do stupid things, seemingly without thinking about them, and somebody else will have to come clean up their mess later. This makes them net *liabilities* to the company because no only do they not contribute, but they soak up other people's time. They are the kind of people who decide to refactor your core algorithms to use the Visitor pattern, which they just read about the night before, and completely misunderstood...
+> p 98: *People who Get Things Done but aren't Smart* will tend to do stupid things, seemingly without thinking about them, and somebody else will have to come clean up their mess later. This makes them net *liabilities* to the company because not only do they not contribute, but they soak up other people's time. They are the kind of people who decide to refactor your core algorithms to use the Visitor pattern, which they just read about the night before, and completely misunderstood...
 
 How to detect Smart? The first good sign is not having to explain things over and over. Create a situation where they can show you their smarts. Don't be a blowhard.
 
