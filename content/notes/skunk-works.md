@@ -1,6 +1,7 @@
 ---
 title: Skunk Works
 tags: [notes, software, design]
+author: Ben Rich
 ---
 
 [http://www.amazon.com/Skunk-Works-Personal-Memoir-Lockheed/dp/0316743003](http://www.amazon.com/Skunk-Works-Personal-Memoir-Lockheed/dp/0316743003)
@@ -46,5 +47,3 @@ But I had persisted, and when I returned from Cambridge, wearing a new crimson t
 ## Page 337
 
 "We became the most successful advanced projects company in the world by hiring talented people, paying them top dollar, and motivating them into believing that they could produce a Mach 3 airplane like the Blackbird a generation or two ahead of anybody else. Our design engineers have the keen experience to conceive the whole airplane in their mind's eye, doing the trade-offs in their heads between aerodynamic needs and weapons requirements. We created a practical and open work environment for engineers and shop workers forcing the guys behind the drawing boards onto the shop floor to see how their ideas were being translated into actual parts and to make any necessary changes on the spot. We made every shop worker who designed or handled a part responsible for quality control. Any worker - not just a supervisor or manager - could send back a part that didn't meet his or her standards. That way we reduced rework and scrap waste."
-
-

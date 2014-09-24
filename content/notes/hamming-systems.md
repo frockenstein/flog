@@ -1,7 +1,8 @@
 ---
-title: Richard Hamming - Systems Engineering
+title: Systems Engineering
 tags: notes
 date: 2014-02-01
+author: Richard Hamming
 ---
 
 [http://www.youtube.com/watch?v=5vQ4CekU6sg](http://www.youtube.com/watch?v=5vQ4CekU6sg)
@@ -47,8 +48,3 @@ The trouble with systems engineering is you are also required to think about the
 Solving the conflict between the individual and the group in favor of the group is inhumane. You have to let the people get away with some things and act humanely. It doesn't work when you expect people to act like machines.
 
 ### The nature of the problem is: vague problems solved vaguely.
-
-
-
-
-

@@ -1,6 +1,8 @@
 ---
 title: Code Complete
 tags: [notes, software, design]
+description: Classic opus on slinging code
+author: Steve McConnell
 ---
 
 [http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_1?ie=UTF8&qid=1365715794&sr=8-1&keywords=code+complete](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=sr_1_1?ie=UTF8&qid=1365715794&sr=8-1&keywords=code+complete)

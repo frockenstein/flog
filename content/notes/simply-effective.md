@@ -1,6 +1,7 @@
 ---
 title: Simply Effective
 tags: [notes, software, product]
+author: Ron Ashkenas
 ---
 
 [http://www.amazon.com/Simply-Effective-Complexity-Organization-ebook/dp/B002YNSCFG/ref=sr_1_1?ie=UTF8&qid=1382537504&sr=8-1&keywords=simply+effective](http://www.amazon.com/Simply-Effective-Complexity-Organization-ebook/dp/B002YNSCFG/ref=sr_1_1?ie=UTF8&qid=1382537504&sr=8-1&keywords=simply+effective)

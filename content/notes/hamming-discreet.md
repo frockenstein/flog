@@ -1,6 +1,7 @@
 ---
 title: Richard Hamming - Discreet Systems
 tags: [notes, hamming]
+author: Richard Hamming
 ---
 [http://www.youtube.com/watch?v=x2i5w9onAsY](http://www.youtube.com/watch?v=x2i5w9onAsY)
 

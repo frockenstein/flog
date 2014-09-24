@@ -1,6 +1,8 @@
 ---
 title: The Design of Design
 tags: [notes, design]
+author: Fred Brooks
+description: A great read on modern design, collaboration and pitfalls.
 ---
 
 [http://www.amazon.com/The-Design-Essays-Computer-Scientist/dp/0201362988/ref=sr_1_1?ie=UTF8&qid=1334238845&sr=8-1](http://www.amazon.com/The-Design-Essays-Computer-Scientist/dp/0201362988/ref=sr_1_1?ie=UTF8&qid=1334238845&sr=8-1)

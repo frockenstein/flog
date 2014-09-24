@@ -1,6 +1,7 @@
 ---
 title: Becoming a Technical Leader
 tags: [notes, software, design]
+author: Gerry Weinberg
 ---
 
 [http://www.amazon.com/Becoming-Technical-Leader-Problem-Solving-Approach/dp/0932633021/ref=sr_1_1?ie=UTF8&qid=1345640648&sr=8-1&keywords=becoming+a+technical+leader](http://www.amazon.com/Becoming-Technical-Leader-Problem-Solving-Approach/dp/0932633021/ref=sr_1_1?ie=UTF8&qid=1345640648&sr=8-1&keywords=becoming+a+technical+leader)

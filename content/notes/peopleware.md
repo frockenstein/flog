@@ -1,6 +1,7 @@
 ---
 title: Peopleware
 tags: [notes, software]
+author: Tom DeMarco and Timothy Lister
 ---
 
 [http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439/ref=sr_1_1?ie=UTF8&qid=1343692709&sr=8-1&keywords=peopleware](http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439/ref=sr_1_1?ie=UTF8&qid=1343692709&sr=8-1&keywords=peopleware)
@@ -207,4 +208,3 @@ Time fragmentation and gear switching are huge time drains. You can’t really m
 We have a strong need for community and the workplace is usually a surrogate for the town. The U.S. hasn’t had a strong sense of town since the 20’s (the car).
 
 There’s no formula for how to build a thriving community at work, but it’s one of the loftier goals a person can pursue.
-

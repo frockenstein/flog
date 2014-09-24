@@ -1,6 +1,7 @@
 ---
-title: Joel Spolsky - Smart & Gets Things Done
+title: Smart & Gets Things Done
 tags: [notes, spolsky, programming]
+author: Joel Spolsky
 ---
 
 [http://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385/ref=sr_1_1?ie=UTF8&qid=1409878239&sr=8-1&keywords=spolsky+smart](http://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385/ref=sr_1_1?ie=UTF8&qid=1409878239&sr=8-1&keywords=spolsky+smart)
@@ -254,4 +255,3 @@ Get people to identify with the goals you're trying to achieve. Takes a lot of s
 See [http://www.joelonsoftware.com/articles/fog0000000043.html](http://www.joelonsoftware.com/articles/fog0000000043.html) for more...
 
 > p. 158 What they realized was that the project managers has been so insistent on keeping to the "schedule" that programmers simply rushed through the coding process, writing extremely bad code, because the bug fixing phase was not a part of the formal schedule. There was no attempt to keep the bug count down. Quite the opposite. The story goes that one programmer, who had to write the code to calculate the height of a line of text, simply wrote `return 12;` and waited for the bug report to come in. The schedule was merely a checklist of features waiting to be turned into bugs. In the post-mortem, this was referred to as "infinite defects methodology."
-

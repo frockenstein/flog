@@ -1,6 +1,7 @@
 ---
 title: Release It
 tags: [notes, software, design]
+author: Michael Nygard
 ---
 
 [http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213/ref=sr_1_1?ie=UTF8&qid=1372275489&sr=8-1&keywords=release+it](http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213/ref=sr_1_1?ie=UTF8&qid=1372275489&sr=8-1&keywords=release+it)
@@ -51,4 +52,3 @@ The most useful criterion for evaluating architectures is: does it make IT bette
 The cost of releasing software is almost never accounted for in budgeting
 
 Change is the defining characteristic of software. Plan for it, accommodate it.
-

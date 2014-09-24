@@ -1,6 +1,7 @@
 ---
 title: The Year Without Pants
 tags: [notes, software, wordpress]
+author: Scott Berkun
 ---
 
 [http://www.amazon.com/Year-Without-Pants-WordPress-com-Future-ebook/dp/B00DVJXI4M/ref=sr_1_1?ie=UTF8&qid=1386160622&sr=8-1&keywords=year+without+pants](http://www.amazon.com/Year-Without-Pants-WordPress-com-Future-ebook/dp/B00DVJXI4M/ref=sr_1_1?ie=UTF8&qid=1386160622&sr=8-1&keywords=year+without+pants)

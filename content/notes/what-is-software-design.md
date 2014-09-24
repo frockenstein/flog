@@ -1,6 +1,7 @@
 ---
 title: What Is Software Design
 tags: [notes, software]
+author: Jack Reeves
 ---
 
 What Is Software Design?
@@ -56,4 +57,3 @@ Many different software design notations are potentially useful—as auxiliary d
 Software development is still more a craft than an engineering discipline. This is primarily because of a lack of rigor in the critical processes of validating and improving a design.
 
 Ultimately, real advances in software development depend upon advances in programming techniques, which in turn mean advances in programming languages.
-

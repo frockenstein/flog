@@ -110,9 +110,17 @@ brain =
 
   blogIndex: (callback) ->
     cells = @graycells.filter (cell) ->
-        cell.url.indexOf('blog/') > -1
+      cell.url.indexOf('blog/') > -1
     cells = _.sortBy cells, (cell) ->
       cell.date
+
+    callback(cells)
+
+  noteIndex: (callback) ->
+    cells = @graycells.filter (cell) ->
+      cell.url.indexOf('notes/') > -1
+    cells = _.sortBy cells, (cell) ->
+      cell.title
 
     callback(cells)
 
@@ -130,6 +138,11 @@ app.get '/blog/', (req, res, next) ->
   brain.build () ->
     brain.blogIndex (result) ->
       res.send brain.renderFull('blog.html', { pages: result })
+
+app.get '/notes/', (req, res, next) ->
+  brain.build () ->
+    brain.noteIndex (result) ->
+      res.send brain.renderFull('notes.html', { notes: result })
 
 app.get '*', (req, res) ->
   brain.build () ->

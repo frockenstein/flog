@@ -1,6 +1,7 @@
 ---
-title: Richard Hamming - You and Your Research
+title: You and Your Research
 tags: [notes, hamming]
+author: Richard Hamming
 ---
 # Richard Hamming - [You and Your Research](http://www.youtube.com/watch?v=a1zDuOPkMSw)
 
@@ -59,4 +60,3 @@ tags: [notes, hamming]
 * The onus is on you to demonstrate greatness, and *then* you'll get the opportunity
 
 # "Repent your idle ways, and get down and be somebody worth being"
-

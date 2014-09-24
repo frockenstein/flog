@@ -1,6 +1,8 @@
 ---
 title: Are Your Lights On?
 tags: [notes, software, product]
+description: How to effectively problem solve
+author: Donald Gause
 ---
 
 [http://www.amazon.com/Are-Your-Lights-On-Problem/dp/0932633161/ref=sr_1_1?ie=UTF8&qid=1382471239&sr=8-1&keywords=are+your+lights+on%3F](http://www.amazon.com/Are-Your-Lights-On-Problem/dp/0932633161/ref=sr_1_1?ie=UTF8&qid=1382471239&sr=8-1&keywords=are+your+lights+on%3F)

@@ -1,6 +1,7 @@
 ---
 title: Inspired
 tags: [notes, design]
+author: Marty Cagan
 ---
 
 [http://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408/ref=sr_1_1?ie=UTF8&qid=1343058047&sr=8-1&keywords=inspired](http://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408/ref=sr_1_1?ie=UTF8&qid=1343058047&sr=8-1&keywords=inspired)
