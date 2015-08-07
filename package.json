@@ -40,6 +40,7 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt",
     "start": "coffee flog.coffee",
     "prepublish": "grunt --env production",
     "preinstall": "echo here it comes",
