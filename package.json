@@ -41,10 +41,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "grunt",
-    "start": "coffee flog.coffee",
+    "start": "nodemon flog.litcoffee",
     "prepublish": "grunt --env production",
     "preinstall": "echo here it comes",
-    "postinstall": "echo there it goes"
+    "postinstall": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/frockenstein/flog/issues"
