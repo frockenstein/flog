@@ -41,7 +41,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "grunt",
-    "start": "nodemon flog.litcoffee",
+    "start": "coffee flog.litcoffee",
+    "watch": "nodemon flog.litcoffee",
     "prepublish": "grunt --env production",
     "preinstall": "echo here it comes",
     "postinstall": "npm run build"
