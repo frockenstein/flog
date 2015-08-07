@@ -43,6 +43,7 @@
     "build": "grunt",
     "start": "coffee flog.litcoffee",
     "watch": "nodemon flog.litcoffee",
+    "deploy": "git push origin master && git push heroku master",
     "prepublish": "grunt --env production",
     "preinstall": "echo here it comes",
     "postinstall": "npm run build"
