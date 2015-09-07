@@ -42,7 +42,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "grunt",
     "start": "coffee flog.litcoffee",
-    "watch": "nodemon flog.litcoffee",
+    "watch": "nodemon --watch content -e md,coffee flog.litcoffee",
     "deploy": "git push origin master && git push heroku master",
     "prepublish": "grunt --env production",
     "preinstall": "echo here it comes",
