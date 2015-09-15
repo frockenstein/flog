@@ -19,12 +19,9 @@
     "coffee-script": "~1.7.1",
     "express": "~4.4.5",
     "glob": "~4.0.4",
-    "grunt-cli": "~0.1.13",
-    "grunt": "~0.4.5",
-    "load-grunt-tasks": "~0.6.0",
-    "grunt-contrib-coffee": "~0.10.1",
-    "grunt-contrib-less": "~0.11.3",
-    "grunt-contrib-watch": "~0.6.1",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-less": "*",
     "chalk": "~0.5.1",
     "lodash": "~2.4.1"
   },
@@ -37,19 +34,29 @@
   ],
   "author": "Frock",
   "license": "MIT",
-  "main": "Gruntfile.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "grunt",
+    "build": "gulp",
     "start": "coffee flog.litcoffee",
-    "watch": "nodemon --watch content -e md,coffee flog.litcoffee",
+    "watch": "nodemon --watch content --watch flog.litcoffee -e md,litcoffee flog.litcoffee",
     "deploy": "git push origin master && git push heroku master",
-    "prepublish": "grunt --env production",
+    "prepublish": "gulp --env production",
     "preinstall": "echo here it comes",
     "postinstall": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/frockenstein/flog/issues"
   },
-  "homepage": "https://github.com/frockenstein/flog"
+  "homepage": "https://github.com/frockenstein/flog",
+  "devDependencies": {
+    "event-stream": "^3.3.1",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-uglify": "^1.4.1",
+    "merge-stream": "^1.0.0"
+  }
 }

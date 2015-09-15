@@ -10,11 +10,6 @@ Require all that shit
     stache = require 'mustache'
     marked = require 'marked'
 
-Make sure markdown respects linebreaks
-
-    marked.setOptions
-      breaks: true
-
 `Brain` is our main module
 
     brain =
@@ -98,7 +93,8 @@ Reads content from disk or cache, returns the result for further processing.
               donezo(result)
           else
             result.meta = @readMeta(data.toString())
-            result.body = marked(result.meta.markdownBody)
+            markedOpts = { breaks: result.meta.breaks ? true }
+            result.body = marked(result.meta.markdownBody, markedOpts)
             @cache[fullpath] = result
             donezo(result)
 
