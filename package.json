@@ -49,8 +49,7 @@
     "build": "gulp",
     "start": "coffee flog.litcoffee",
     "watch": "nodemon --watch content --watch flog.litcoffee -e md,litcoffee flog.litcoffee",
-    "deploy": "git push origin master && git push heroku master",
-    "postinstall": "gulp"
+    "deploy": "git push origin master && git push heroku master"
   },
   "bugs": {
     "url": "https://github.com/frockenstein/flog/issues"

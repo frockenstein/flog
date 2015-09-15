@@ -1,5 +1,2 @@
-output
 node_modules/*
-static/app.js
-static/style.css
 npm-debug.log
