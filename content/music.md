@@ -17,6 +17,11 @@ breaks: false
 
 <p>These are singles that will probably get compiled into a CD at some point:</p>
 
+<a id="MetAGirl" href="http://s3.amazonaws.com/frockenstein-mp3/MetAGirl.mp3" title="Listen to Met A Girl by Jason Finneyfrock">Met A Girl</a>
+<div class="song-meta">
+	Like <a href="#WaitingForYou-notes">Waiting for You</a>, this started out as a mic test for some new gear. I decided to keep rolling and drop whatever other acoustic stuff I had in the house. Phil Kelly got a big ol' double bass recently, so that was the missing puzzle piece.
+</div>
+
 <a href="http://s3.amazonaws.com/frockenstein-mp3/FadingFast.mp3" title="Listen to Fading Fast by Jason Finneyfrock">Fading Fast</a>
 <div class="song-meta">
 	A quick little ditty about those lovely summer days that you don't want to end. Did this in my living room, and you can hear the metronome bleeding into the mic but I kinda like it - feels like time's ticking away. More basstacular action from Phil Kelly on this one.
