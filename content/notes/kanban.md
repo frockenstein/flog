@@ -192,9 +192,9 @@ author: David J. Anderson
 * Waste is classified into three categories: transaction costs, coordination costs, failure load. The concept is a metaphor.
 * Waste doesn't work for everyone, and is often necessary. To determine if it's wasteful, ask "would we do more of this if we could?"
 * Transaction costs come in two flavors: setup activities, and cleanup, or delivery activities.
-* Coordination costs are things that are performed in order to assign people to takss, xcheudle, events, or coordinat the work of two or moe people
-* Failure load is new shit generated becuase of some earlier failure, and uses capacity that could be used for new things
-* Turning ideas into working code that's deliiverable quickly maximizes the value and minimizes waste.
+* Coordination costs are things that are performed in order to assign people to tasks, schedule, events, or coordinate the work of two or more people.
+* Failure load is new shit generated becuase of some earlier failure, and uses capacity that could be used for new things.
+* Turning ideas into working code that's deliverable quickly maximizes the value and minimizes waste.
 
 ## Chapter 19 - Sources of Variability
 
