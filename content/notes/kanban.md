@@ -23,15 +23,15 @@ author: David J. Anderson
 * New work is pulled into the process by returning a signal card upon completion of current work.
 * In IT work, we're generally using a virtual kanban system and there is no actual physical card passed around to limit work-in-progress.
 * Card walls, common in Agile software, are not kanban systems.
-* Kanban creates a positive tension that forces the discussion of problems.
+* **Kanban creates a positive tension that forces the discussion of problems.**
 * Kanban requires explicit policies, and enables incremental improvement through repeated discovery of issues affecting process performance.
 * [Limited WIP Society](http://www.limitedwipsociety.com)
 
 ## Chapter 3 - A Recipe for Success
 
 * Poor quality can represent the largest waste in software development.
-* Reducing work-in-progress generally improves quality. Do fewer things better!
-* Improved quality improves trust downstream, and usually enables quicker, more frequent releases, which improves trust with people upstream.
+* Reducing work-in-progress generally improves quality. **Do fewer things better!**
+* **Improved quality improves trust downstream, and usually enables quicker, more frequent releases, which improves trust with people upstream.**
 * Demand is balanced against throughput via the pull system.
 * Pull systems expose bottlenecks, and expose slack in the non-bottlenecks.
 * **Good quality prioritization** maximizes the output of a well-functioning dev team, but it's of little value if quality is low and delivery is unpredictable.
