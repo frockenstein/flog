@@ -186,5 +186,6 @@ Nothing major here - just a simple express app
           if result.status then res.status(result.status)
           res.send(brain.render('layout.html', result))
 
-    app.listen(process.env.PORT || 3000)
-    console.log('listening on port 3000')
+    port = process.env.PORT || 3000
+    app.listen(port)
+    console.log("Let's do this http://localhost:#{port}")

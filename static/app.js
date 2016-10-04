@@ -1,11 +1,3 @@
-(function() {
-  $(function() {
-    return $('.show-lyrics').on('click', function() {
-      return $(this).parents('.song-meta').children('.song-lyrics').toggle();
-    });
-  });
-
-}).call(this);
 
 /* Zepto v1.1.6 - zepto event ajax form ie - zeptojs.com/license */
 var Zepto = function() {
@@ -1045,3 +1037,12 @@ function(t) {
         }
     }
 }(Zepto);
+
+(function() {
+  $(function() {
+    return $('.show-lyrics').on('click', function() {
+      return $(this).parents('.song-meta').children('.song-lyrics').toggle();
+    });
+  });
+
+}).call(this);
