@@ -83,7 +83,7 @@ author: David J. Anderson
 ## Chapter 8 - Delivery Cadence
 
 * "Delivery cadence" is an agreed-upon, regular interval between deliveries of working software.
-* Kanban decouples delivery caence from both development lead time and prioritziation cadnece.
+* Kanban decouples delivery cadence from both development lead time and prioritziation cadence.
 * Short, time-boxed iterations have led to dysfunction with some teams attempting to adopt Agile development methods
 * Delivery of release of software involves coordination of many people from various functions. All of this coordination has a measurable cost.
 * Delivery or release of software carries with it a set of transatiction costs in both time and money. These costs can be determined and tracked.
