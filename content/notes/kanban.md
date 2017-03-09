@@ -86,7 +86,7 @@ author: David J. Anderson
 * Kanban decouples delivery cadence from both development lead time and prioritziation cadence.
 * Short, time-boxed iterations have led to dysfunction with some teams attempting to adopt Agile development methods
 * Delivery of release of software involves coordination of many people from various functions. All of this coordination has a measurable cost.
-* Delivery or release of software carries with it a set of transatiction costs in both time and money. These costs can be determined and tracked.
+* Delivery or release of software carries with it a set of transaction costs in both time and money. These costs can be determined and tracked.
 * Regular delivery builds trust, and delivering consistently can be addictive - also reduces coordination costs
 * Ad hoc delivery can make sense for orgs with high levels of trust and maturity and low transaction/coordination costs
 * Legitimate requests for an expedited delivery may be cause for an off-cycle release. Regular releases should resume asap afterward.
@@ -201,7 +201,7 @@ author: David J. Anderson
 * The study of variation in industry started in the 20's with Walter Shewhart and evolved with the work of W. Edwards Deming, Joseph Duran, and David  Chambers throughh the late 20th century.
 * A study of variation and its statistical analysis method is at the heart of both the Toyota Production System (and hence Lean) and Six Sigma
 * The work of W. Edwards Deming and Joseph Duran were
-major inspirations of the work of the Software Engineering INstitute at Carnegie Mellon and the Capability Maturity Model.
+major inspirations of the work of the Software Engineering Institute at Carnegie Mellon and the Capability Maturity Model.
 * Shewhart divided sources of variation into two categories: those internal to the process, and those external to it.
 * Internal variations are typically work item size, type, class of service, irregular flow, rework.
 * External variations are innumerable, but often things like requirements abiguitiy, expedite requests, market factors, staffing factors, challenges in scheduling and overhead.

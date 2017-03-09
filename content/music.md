@@ -19,7 +19,7 @@ breaks: false
 
 <a id="MetAGirl" href="http://s3.amazonaws.com/frockenstein-mp3/MetAGirl.mp3" title="Listen to Met A Girl by Jason Finneyfrock">Met A Girl</a>
 <div class="song-meta">
-	Like <a href="#WaitingForYou-notes">Waiting for You</a>, this started out as a mic test for some new gear. I decided to keep rolling and drop whatever other acoustic stuff I had in the house. Phil Kelly got a big ol' double bass recently, so that was the missing puzzle piece.
+	Like <a href="#WaitingForYou">Waiting for You</a>, this started out as a mic test for some new gear. I decided to keep rolling and drop whatever other acoustic stuff I had in the house. Phil Kelly got a big ol' double bass recently, so that was the missing puzzle piece.
 </div>
 
 <a href="http://s3.amazonaws.com/frockenstein-mp3/FadingFast.mp3" title="Listen to Fading Fast by Jason Finneyfrock">Fading Fast</a>
@@ -281,7 +281,7 @@ breaks: false
 <a href="http://s3.amazonaws.com/frockenstein-mp3/WaitingForYou.mp3" title="Listen to Waiting For You by Jason Finneyfrock">Waiting For You</a>
 
 <div class="song-meta">
-	<div id="WaitingForYou-notes">
+	<div id="WaitingForYou">
 		This was really just a test song, since I got a couple new mics, but it all just fell together and I liked it so here she is. I think this is the only song here that features some ukelele.
 		<a href="#WaitingForYou-lyrics" class="show-lyrics">(lyrics)</a>
 	</div>
@@ -498,7 +498,7 @@ breaks: false
 	</div>
 </div>
 
-<a href="http://s3.amazonaws.com/frockenstein-mp3/Swirlybird.mp3" title="Listen to Swirlybird by Jason Finneyfrock">Swirlybird</a>
+<a id="Swirlybird" href="http://s3.amazonaws.com/frockenstein-mp3/Swirlybird.mp3" title="Listen to Swirlybird by Jason Finneyfrock">Swirlybird</a>
 
 <div class="song-meta">
 	<div id="Swirlybird-notes">
