@@ -35,6 +35,7 @@ munges it into the layout file
 
       renderFull: (name, data) ->
         body = @render(name, data)
+        brain.fart(name)
         @render('layout.html', { body: body })
 
 Rips through the `/content` folder and looks for markdown
@@ -95,6 +96,18 @@ Reads content from disk or cache, returns the result for further processing.
             result.meta = @readMeta(data.toString())
             markedOpts = { breaks: result.meta.breaks ? true }
             result.body = marked(result.meta.markdownBody, markedOpts)
+
+            # treat /music differently: read in from yaml and
+            # run through mustache
+            if (urlpath is '/music')
+              path = "content#{urlpath}.yml"
+              shit = fs.readFileSync(path, 'utf-8')
+              try
+                doc = yaml.load(shit)
+                result.body = @render('music.html', doc)
+              catch e
+                brain.fart(e)
+
             @cache[fullpath] = result
             donezo(result)
 

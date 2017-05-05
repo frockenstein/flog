@@ -1,0 +1,486 @@
+# https://nodeca.github.io/js-yaml/
+# https://github.com/nodeca/js-yaml
+songs:
+    - id: 'MetAGirl'
+      title: 'Met a Girl'
+      notes: "Like <a href=\"#WaitingForYou\">Waiting for You</a>, this started out as a mic test for some new gear. I decided to keep rolling and drop whatever other acoustic stuff I had in the house. Phil Kelly got a big ol' double bass recently, so that was the missing puzzle piece."
+
+    - id: 'FadingFast'
+      title: 'Fading Fast'
+      notes: "A quick little ditty about those lovely summer days that you don't want to end. Did this in my living room, and you can hear the metronome bleeding into the mic but I kinda like it - feels like time's ticking away. More basstacular action from Phil Kelly on this one."
+      lyrics: |
+        I'm gonna miss the things that I take for granted
+        Like the salty air and the layer of sand
+        That covers me in the summertime
+        I'm gonna miss the South and the easy freedom
+        And the folks who know to live without feeding
+        Off the government
+        But it's fading fast
+        I'm gonna miss today and it's not even gone
+        But the sun is red and the clock marches on
+        And I'm losing it
+        I hate that things can't always be this perfect
+        And I'm not too sure that I even deserve it
+        But I hope I do
+        But it's fading fast
+    - id: 'Another Mile'
+      notes: "Think my producer skillz are getting better. Seems to have a good punchy clean sound. I'm playing the acoustic a good bit these days and it's showing - takes center stage on this song and the electric's barely audible. Phil Kelly laid down some ridiculously tasty bass for this tune."
+      lyrics: |
+        Sucks when the shoes on the other foot now doesn't it?
+        Doin' what your doin' just ain't cuttin' it
+        Maybe I've grown cold and I am struttin' it
+        But I'll be damned if I give up another mile
+
+        Life sure dealt us a pretty hand now didn't it?
+        Throw it down and tilt the crown a little bit
+        Took awhile but now I think I'm gettin' it
+        And I'll be damned if I give up another mile
+
+        The truth is sometimes poison sometimes antidote
+        Coat my soul with a heavy layer of creosote
+        Gamble it away on a muddy riverboat
+        But I'll be damned if I give up another mile
+
+        Liberty will breed contempt, why wouldn't it?
+        Things remain the same but now they shouldn't fit?
+        Wasting all your breath is where you're puttin' it
+        And I'll be damned if I give up another mile
+
+        Don't think about the things you wanna borrow
+        Don't think about the things you never had
+        Don't think about the things you need tomorrow
+        We've all been had
+    - id: 'Good+Thing'
+      title: 'Good Thing'
+      notes: "This one sorta popped out while I was running some mic tests. I'd been kicking the first line around for awhile, and finally found the tune and extra words for it."
+      lyrics: |
+        If I could go back and do it all again
+        I'd find a new way to screw it up and then
+        I'd wind up right back where I started from
+        Good thing I'm the only one
+        I'm a grass-is-always-greener kinda guy
+        Sometimes I sit and stare up at the sky
+        If the world was full of me we wouldn't get much done
+        Good thing I'm the only one
+        But it hurts sometimes
+        And it makes me sad
+        To know I'm gonna lose everything I've ever had
+        It hurts sometimes
+        When I start to see
+        All the things I hope for but won't ever be
+    - id: California
+      title: California
+      notes: I originally intended this song to have a Brazilian/samba feel to it, but as I fleshed it out, all I could think of was driving down the PCH in a convertible on a sunny evening, so I called it California. I'd been working on this one for a month or so, and I'm fairly proud of it. It has the distinction of being the only song I play castanets on. If you dig this one, you'll probably like <a rel="nofollow" href="#Swirlybird">Swirlybird</a> and <a href="#WaitingForYou" rel="nofollow">Waiting for You</a>.
+    - id: Daydreams
+      title: Daydreams
+      notes: This song's for the workin' man. It's another country jam, with a bit of bounce to it and a pretty nice guitar solo if I do say so myself.
+      lyrics: |
+        Oh I'd like to burn my bills and build a cabin in the hills
+        But the wife has doubts that dog will ever hunt
+        So I move in close to town and let it wear me on down
+        And I work all day just to give her what she wants
+
+        But sometimes, just sometimes, I wonder what it's like
+        To have no more than a backpack and a motorbike
+        Either I'm really sinkin', or I'm doing too much thinkin'
+        And I need to leave these daydreams alone
+
+        Every now and then I'm like a dog inside a pen
+        And the urge to run just puts me in a bind
+        You could argue that it's safe, and that it's not an awful place
+        And I guess there's folks that never really mind
+
+        But sometimes, just sometimes, I get all tight and tense
+        And I'd like to chew a hole right through that fence
+        Yeah, my desire is growin' to go where the wind is blowin'
+        And I need to leave these daydreams alone
+
+        (solo)
+
+        Either I'm really sinkin', or I'm doing too much thinkin'
+        And I need to leave these daydreams alone
+    - id: Epitaph
+      title: Epitaph
+      notes: |
+        A fairly country song about things they might put on my headstone. Musically, there's nothing groundbreaking going on, but I like the lyrics and the structure of the song overall.
+
+        I recorded the vocals and acoustic guitar with a couple mics in one take, and then sprinkled the bass, drums and electric guitar on afterwards.
+      lyrics: |
+        I always seem to miss it, by a little less than a minute
+        Think I just found a new epitaph
+
+        Things never last for long, and there's always something wrong
+        Think I just found a new epitaph
+
+        You never come out cleaner, and always a little bit meaner
+        Think I just found a new epitaph
+
+        Not overly corrective, just subtle but effective
+        Think I just found a new epitaph
+
+        You work all day and evening, and search in vain for meaning
+        Think I just found a new epitaph
+
+        It's never trouble knowing, just hard as shit to get going
+        Think I just found a new epitaph
+    - id: Swampland
+      title: Swampland
+      notes: An instrumental that reminds me of a swampy, down and dirty kinda thing. A little like what might happen if Waylon Jennings and Built to Spill jammed. Also reminds me of <a target="_blank" href="http://blip.fm/profile/frockenstein/blip/8275351">Real Good Man</a> by Tim McGraw. I like the mixture of big boomy drums and a funky groove, with some country twang and slide guitar.
+    - id: Spacefunk
+      title: Spacefunk
+      notes: This is an instrumental that to me is somehow futuristic and retro at the same time. The guitarwork is pretty much standard classic rock slide guitar, but the combo of that, the funk beat, and synth gives it a unique flavor I think. Plus I threw in some tribal drums just to further confuse things.
+    - id: Montage
+      title: Montage
+      notes: This is an instrumental that reminds me of the kinda thing you'd hear at the end of a movie, where the camera pans in and around people, going about their business, wrapping things up and showing how it all ended. I believe I was fiddling with the Voc AC-30 amp from <a href="http://www.native-instruments.com/index.php?id=guitarrig3le">Guitar Combos (now Rig I guess)</a> and this one just fell into place.
+    - id: Cadillac
+      title: Cadillac
+      notes: In my late teens I owned a <a title="View a picture of my '69 Cadillac Coupe de Ville" href="/cars#cadillac">'69 Coupe de Ville</a>. Loved the car but it bled me dry so I had to lose her. This song's half about me getting it, half about wanting another one again. It's chock full of countryisms and reminds me a little of Chuck Berry's Maybelline or maybe a Jerry Reed song.
+      lyrics: |
+        Well I came into some money just the other day
+        My old lady knew what I was gonna say
+        Flipping through the pages of the Old Car Trader
+        I was gonna be as bad as ol' Darth Vader
+        Soon and very soon boys I'm gonna shine
+
+        So we hopped into the truck and headed down the road
+        I was meant to carry very heavy loads
+        But one thing I was never meant to do
+        Was to lick the bottom of a bureaucrats shoe
+        Get 'em when they're old and then they'll leave you be
+        Emissions tests - you must be kiddin' me
+        Listen to me boys 'cause I know what's cookin'
+        Or you can sit there and let me get to bookin'
+
+        I need a long, white, loud and tight '69 Cadillac
+        If you miss her take a picture boys 'cause I ain't comin' back
+
+        We flew down the road a piece and then we hung a right
+        Next to her a man whose hair was nearly white
+        He said she's been good, but I gotta let her go
+        She needs another lover who is in the know
+        So fire up the motor son, and let her roar
+        She's all power, and style, and badass galore
+        I can tell son that you know what's cookin'
+        So cut me a check and I'll let you get to bookin'
+
+        I got a long, white, loud and tight '69 Cadillac
+        If you miss her, take a picture boys, 'cause I ain't comin' back
+    - id: Cutiepie
+      title: Cutiepie
+      notes: A fun little ditty, inspired by my better half. I can't decide if this is a country song or a soul song. Musically, there's nothing Earth-shattering about it, but it features some pretty nice guitar work. The drums also never use a crash or ride cymbal the whole time, which doesn't occur very often in songs. It's all kick, snare, and high-hat only.
+      lyrics: |
+        Come on over here cutiepie
+        Let me bend your ear cutiepie
+        I don't know just what to say
+        But I'll flap my gums anyway cutiepie
+
+        I've been watching you cutiepie
+        You know a thing or two cutiepie
+        I think your shirt is a travesty
+        Why don't you slide a little closer to me cutiepie
+
+        Buy us a couple beers cutiepie
+        You're just a little weird, but so am I
+        I think we might just get along
+        Think I might have to sing you a song cutiepie
+
+        You're making me drool cutiepie
+        It's getting hard to play it cool cutiepie
+        Let's take a nice long ride in the truck
+        Find a nice quiet place to... kiss cutiepie
+    - id: WaitingForYou
+      title: Waiting For You
+      notes: This was really just a test song, since I got a couple new mics, but it all just fell together and I liked it so here she is. I think this is the only song here that features some ukelele.
+      lyrics: |
+        Sitting here waiting for you is like hell
+    - id: Remarried
+      title: Remarried
+      notes: My last recording on my Roland VS-880. Features me on the harmonica this time. It's got a Neil Young feel to it, but I like Neil, so that's no surprise. It's about an old man in Baltimore who's watched life pass him by and kind of wither away. Autobiographical of course :)
+      lyrics: |
+        I'm a sad, decrepit old man
+        With slender, shaky hands
+        My signature is not what it used to be
+
+        She left us in '73
+        Had somewhere better to be
+        A man can only change so much so fast
+        A man can only change so much so fast
+
+        The paint store's kept me employed
+        The bums they'e kept me annoyed
+        My walk to work is not what it used to be
+
+        I moved here when I was a teen
+        Ol' formstone made me a king
+        But like everything, it's cracked and peeling away
+        Like everything, it's cracked and peeling away
+
+        I wish I would have remarried
+        Think I should have remarried
+        I know I could have remarried
+        But it's too late for me to remarry
+    - id: Just+Go+Away
+      title: Just Go Away
+      notes: One of my favorites. Production sounds better on this one and I like the "wooziness" and general sadness and depression of it. I'd been kicking the acoustic guitar outro around for awhile, and one night, house empty, I decided to turn off all the lights, fire up a few candles and see what came out.
+      lyrics: |
+        Sorry it's come to this
+        One thing you always missed
+        Is how to nip it in the bud
+
+        So come in and get your shit
+        Maybe just one last hit
+        Just for old times
+
+        Just go away from me
+
+        Would you mind hurrying up?
+        Isn't it just my luck
+        It's cold and raining outside
+
+        I know you don't wanna go
+        Or touch me, 'cause then you'll know
+        How cold I am sometimes
+
+        Just go away
+    - id: Fixin'+To+Leave
+      title: Fixin' To Leave
+      notes: A rockin' country ditty about marital dischord. Dig that twangy solo.
+      lyrics: |
+        Aaaaaannnnnd now....
+
+        You're fixin' to leave
+        I'm fixin' to cry
+        Who'll wash my clothes once you've said goodbye?
+
+        You're fixin' to leave
+        I'm fixin' to cry
+        Who's gonna cook once you've said goodbye?
+
+        Now darlin' don't you wanna come on in
+        It's cold outside and this time you can't win
+        You're saying you will find a better man
+        But I got your car's plugwires in my hand
+
+        You're fixin' to leave
+        I'm fixin' to cry
+        Who'll wash my clothes once you've said goodbye?
+
+        You're fixin' to leave
+        I'm fixin' to cry
+        Who's gonna cook once you've said goodbye?
+
+        Now maybe I was wrong to come home late
+        And maybe you were right to break those plates
+        But did you have to break my heart in two?
+        And did I have to break a chair on you?
+
+        And now...
+        You're fixin' to leave
+        I'm fixin' to cry
+        Who's gonna cook once you've said goodbye?
+
+        You're fixin' to leave
+        I'm fixin' to cry
+        Who'll wash my clothes once you've said goodbye?
+    - id: Girlfriend
+      title: Girlfriend
+      notes: New millenium breakup song. Seems to be the favorite of my family members.
+      lyrics: |
+        Sauntering down the sidewalk like I usually do
+        I was thinking of politics, but mostly of you
+        In the grey of December I had a fighting chance
+        But I knew it was over after that one last dance
+
+        That one last dance, when I kissed your cheek
+        You said there's someone I'd like you to meet
+        And meet I did, with a surprising end
+        And that lovely young lady who was your - girlfriend
+
+        My girlfriend's got a girlfriend
+        My girlfriend's got a girlfriend
+        The pain, the torture
+        The thought that I probably bore her
+        My girlfriend's got a girlfriend
+
+        So I'm standing in the cold, and I'm dreamin' away
+        I've been lucky before, but not today
+        When I saw you I was hoping to make amends
+        But before I could speak in walked your - girlfriend
+
+        My girlfriend's got a girlfriend
+        My girlfriend's got a girlfriend
+        The pain, the torture
+        The thought that I probably bore her
+        My girlfriend's got a girlfriend
+    - id: Sift
+      title: Sift
+      notes: Some of the best songs just pop out. I was noodling with this guitar intro, and decided to just record some chords and maybe do some sound tests. One thing led to another and before I new it I had an entire song. I was at the apex of my transition from funk to country and it really shows in this song.
+      lyrics: |
+        How's it gonna be when I'm long in the tooth
+        With my voice hammered, and I'm mired in the truth?
+        After I've cheated and lied and cried
+        And killed my dreams and settled all my dirty leins?
+        How can one so wet behind the ears be so regretful - much less 30 years
+        How's it gonna be when I'm long in the tooth
+        With my voice hammered, and I'm mired in the truth?
+
+        They say life's meaningless, and even worse to wonder why as I watch 'em die
+        And then my tender hands betray me as I sift through their remains
+
+        I'm curious if work is necessary to get past
+        Yeah, but it cuts your ass
+        I sandpapered a tiger's ass and rode a hog and made a frog's ass watertight
+        And then they say I'm ready for the secret of life
+        It is: always carry a knife
+        And their tender hands betray them when they sift through my remains
+    - id: Let's+Get+Away
+      title: Let's Get Away
+      notes: I don't know what I did right, but my guitar sound is nothing but the truth on this song. The solo's not half bad either, and it's got a pseudo bass solo thrown in there just for good measure.
+      lyrics: |
+        Heart why do you pain me so?
+        Dreams why don't you let me go?
+        It's cold outside and grey
+        I got one thing to say
+        Let's get away
+
+        It kills me to see
+        You beg and plead to be free
+        You're spinning your wheels
+        Looking tired - propped by ideals
+        It's cold outside and grey
+        I got one thing to say
+        Let's get away
+
+        The warm morning sun
+        Passed me by 'cause I'm on the run
+        I no longer care
+        To see you there - empty stare
+        It's cold outside and grey
+        I got one thing to say
+        Let's get away
+    - id: Swirlybird
+      title: Swirlybird
+      notes: This one's an instrumental, and it came as I was getting into country guitar playing, especially trying to mimic pedal-steel stuff. That and the Leslie effect I was fiddling with at the time give it a unique, kind of country, kind of jazzy feel.
+    - id: Time+and+Chance
+      title: Time and Chance
+      notes: The best laid plans... I was fond of this sort of swirly, reso-filter kind of guitar sound at the time. Also tried to add some drum-n-bass type of drums to it, which might have come out okay if I was a better drummer. I over-compressed things on this track, but I like the overall structure and the lyrics to it.
+      lyrics: |
+        Sweetheart's young, knows where she's going
+        So she thought until she started showing
+        Sinking fast and desperately rowing
+
+        Her old man just sits and sighs
+        He can't stand to look her in the eyes
+        It happened to him and his second wife
+
+        Some guys play with made up guns
+        My best friend's still on the run
+        'Cause she said babe you're not the one
+        Broken hearts most always heal
+        Love makes you think it's such a steal
+        But goddamn it's a sorry deal
+        And you bow out to time and chance
+
+        And what do you do when you wake up?
+        What do you say when you wake up?
+
+        I just wanted a General Lee
+        And a dad, but I got three
+        Found out college wasn't for me
+
+        It's not that we all don't give it a shot
+        Just never take the time to ask why not
+        Everybody thinks they know the dance
+        And they bow to time and chance
+        We bow out to time and chance
+    - id: StupidFool
+      title: Stupid Fool
+      notes: I just remastered this one recently, using Final Mix. This is a pretty decent pop song about being in love with someone who's no good for you. I'd like to redo the whole thing soon and get a real up-front/in-your-face sound to it.
+      lyrics: |
+        See you there, looking so fine
+        And to think you're such a hard time
+        I used wonder how to make you mine
+        Turns out you're the farthest thing from kind
+
+        But I'm in love with you and it's a sign that I'm a stupid fool
+
+        Some say I like the abuse
+        And then you smile and I get confused
+        A rainy day hiding the sun
+        But at it's worst, it's still a lot of fun
+
+        But I'm in love with you and it's a sign that I'm a stupid fool
+
+        I gotta tell you that beautiful girls are a pain in the ass
+        Beautiful girls are a pain in the ass
+
+        Spend my bones on clothes and hair
+        Too lazy to look elsewhere
+        Fine woman you're a blessing and a curse
+        I'd be ungrateful, but you got there first
+
+        But I'm in love with you and it's a sign that I'm a stupid fool
+    - id: Dirt
+      title: Dirt
+      notes: You can really hear my bossa influence here. I love the lyrics to this. It's not often I think that about my own songs, but these stand out to me for some reason.
+      lyrics: |
+        I hate to say it now
+        We've drifted apart somehow
+        We've both done our part
+        But this is just the start
+
+        I stayed because of guilt
+        I watched my heart just die and wilt
+        It shows in the air
+        It shows in lonely stares
+
+        You're right to call me shit
+        I dug a hole and fell in it
+        I thought it was love
+        Just ended up in dirt
+
+        I never thought I'd lie
+        Or leave you sitting high and dry
+        I swore to the stars
+        But they weren't listening
+        They weren't listening
+    - id: Poets
+      title: Poets
+      notes: Great spanish-y guitar solo on this one. Sometimes it's fun to crank the amp and just holler.
+      lyrics: |
+        My girlfriend says she loves me immensely
+        She's a filthy liar
+        Ignoring every goddamn thing she hurls at me
+        And God it's making me tired
+
+        'Cause I can't tell a poet from a prophet, so I listen to both, and baby you're neither     one
+        I can't tell a poet from a prophet, so I listen to both, and baby you're neither one
+
+        I'm swimming in my own filth
+        My heart spilled on the ground
+        I'm cleaning up today and you know what I'm about to say
+        That I don't want you around
+
+        'Cause I can't tell a poet from a prophet, so I listen to both, and baby you're neither     one
+        I can't tell a poet from a prophet, so I listen to both, and baby you're neither one
+classical:
+    - id: Minor+Swing
+      title: Minor Swing
+      notes: A Django Reinhardt song that was in heavy rotation back in the day. Check out those swing chops I have.
+    - id: Granada
+      title: Granada
+      notes: A Francisco Tarrega song that my kids like. Good music to nap to.
+    - id: Malaguena
+      title: Malaguena
+      notes: Pretty standard Spanish classical/flamenco song.
+
+others:
+    - id: TestFunk
+      title: Testfunk
+      notes: Reminds me of a 70s car chase song. The drums are synth drums, but I'm proud of them. They've got a great natural feel and nasty beat. It takes some time to tweak a beat and get it to sound less mechanized, but it's worth it. Pay attention to the crash cymbals coming in on odd beats.
+    - id: Playing+Your+Game
+      title: Playing Your Game
+      notes: A "remix" of a Barry White song. Just an instrumental rearrangement, but nice music for friskiness.
+    - id: Battery
+      title: Battery
+      notes: Named after the Native Instruments plugin that I was fiddling with to get this song. It's not much of anything, but it does have 3 drum tracks, and funky ones at that. You don't hear that everyday...
