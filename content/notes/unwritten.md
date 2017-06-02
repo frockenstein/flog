@@ -167,5 +167,91 @@ Pay increases, however they happen, are the most appropriate reward for outstand
 
 Most folks will appreciate your honest, unprying interest in their lives outside of the workplace, and your support as well if they have difficulties. Try to accomodate them when justifiable. You have the right to inconvenience your employees but also the responsibility to avoid doing so when possible.
 
+# Professional and Personal Considerations
 
+Any number of studies about on-the-job performance have repeatedly shown that communication and interpersonal skills play a larger role in good performance than tech chops. There are exceptions, but usually tech skills and training aren't the major factors in success in engineering. A highly skilled engineer with good character will win.
 
+Someone with great tech chops but poor personal skills usually loses out because doing anything of scale or size requires other people's cooperation, and cooperation generally hinges on the personal side of things.
+
+## Laws of Personality and Character
+
+1. Cultivate the tendency to appreciate the good qualities, rather than shortcomings of people.
+2. Don't give vent to annoyance or impatience on slight provocation.
+3. Don't harbor grudges based on honest, objective disagreements
+4. Get in the habit of considering the feelings and interests of others
+5. Don't become preoccupied with your own self. Especially where credit is concerned - you can lose credit when you strive after it too hard.
+6. Make it a rule to help the other person whenever the opportunity arises. Even if you're a mean asshole, it pays dividends to help others out.
+7. Be particularly careful to be fair on all occasions. Whenever you've got the upper hand or can mistreat someone, it's especially incumbent on you to bend over backwards to be fair and square. Not give them whatever they want, but just to be fair and not abuse your power.
+8. Don't take yourself or your work too seriously. Much better to laugh off things than maintain a tense, tragic atmosphere. Take things seriously, but aim for "quiet dignity."
+9. Put yourself out just a little to be cordial in greeting people.
+10. Give people the benefit of the doubt, especially when they're probably wrong. If you treat others as depraved scoundrels, they'll usually treat you likewise and live down to your standards.
+
+#### Don't be too affable
+
+It's a mistake to be agreeable or submissive on all occasions. You'll earn respect by engaging in a good fight when it's worth fighting for. "Beware of entrance to a quarrel, but being in, bear 't that the opposed may be aware of thee" (Hamlet quote). When quarelling, best to settle "out of court" if you can, one on one. Your employees should know that whenever they deserve a reprimand, they'll get it every time.
+
+If you don't face your issues squarely, someone else will be put in your place who will.
+
+#### Regard your personal integrity as one of your most important assets
+
+The reward for having integrity is confidence: the confidence of associates, subordinates, and outsiders. All your dealings with people are enormously simplified and easer when people have confidence in you.
+
+In engineering orgs, it takes a surprising short amount of time for you to be appraised and catalogued for what you are. Make sure you overtly and covertly represent the highest standards.
+
+"The obsessing and overpowering fear of being cheated is a common characteristic of substandard personalities." Being clever in this way just hurts you. Also it's not really integrity if you collapse when the going gets tough.
+
+#### Never underestimate the extent of your professional and personal liability
+
+Many engineers pretend they can hide behind their employer's shield, or that they are powerless, merege cogs in the machinery, especially if things go haywire. But don't let all this responsibility weigh you down into inaction. Don't be unreasonably anxious - as an engineer it's your job to identify and judge the risks. Don't be a coward, don't be a permanent martyr.
+
+### Behavior in the workplace
+
+#### Be aware of the effect your appearance has on others and, in turn, you
+
+Your appearance has a hefty influence on how others view you
+
+1. Look at how those in positions you aspire to are dressed and follow their lead
+2. Dress for the occasion, when in doubt, slightly over dress
+3. Conservative styles and colors will never do wrong, at least in engineering circles
+
+Some common-sense tips
+
+* Clothes are clean, well-fitting
+* Hair and nails clean and kept up
+* Good hygiene
+* Perfumes used sparingly
+* For men, good shaving habits
+
+Of course, there are great engineers who are oblivious to these details, others who are wild. If that's you, accept the consequences, like it or not.
+
+#### Refrain from profanity in the workplace
+
+The trouble with using profanity is that the actual effect is known only to the listener, who may conclude something way different than what you intend.
+
+#### Learn what constitues harrassment and don't tolerate it
+
+If you see or hear something, tackle it directly with the person, discreetly and delicately. If that doesn't take, next step is to let your manager handle it more formally.
+
+#### Beware of what you commit to writing and of who will read it
+
+Engineers have been known to broadcast things with damaging or embarrassing statements. Assume your stuff is being read by everyone and write accordingly. Especially refrain from angry, malicious things - those get remembered way longer than you'd want them to.
+
+#### Beware of using your employer's resources for personal purposes
+
+The risks often outweigh the small benefit of borrowing a shop tool, etc.
+
+### Regarding career and personal development
+
+#### Maintain your employability as well as those of your subordinates
+
+If your skills and knowledge are valuable only to your employer, you're in trouble. Obsolete skills are bad for business as well as employees. Life-long learning doesn't mean constant formal training. It's just more than a passing interest in your field. Find ways to keep up-to-date, regardless of how much or little your employer supports you. This will require sacrificing some personal time and expense. Deal with it, or become obsolete.
+
+#### Analyze yourself and your subordinates
+
+Engineers and engineering managers need not be students of psychology. Most of us get into it because we're good with machines and not people. Simply recognizing that people are remarkably different and judge things differently is a great first step.
+
+How much managerial effort is needed? Most people are interested in a) more responsibility, or b) improving their tech skills. Let those be your guide. Either should be rewarded with more pay.
+
+People are often surprised that they're less happy with their new higher-level job, especially when technicians become managers. Beware of how you promote and why. In reality, nobody successfully moving through an engineering carreer can avoid management and administration altogether. Don't pigeonhole yourself though: just because management seems gross now, doesn't mean you won't change later and find satisfaction there. Just because you're not Mr. Super Outgoing doesn't mean you can't excel as a manager. You can become good just by selecting your style and playing to your strengths.
+
+In analyzing yourself and others, good advice is: do what you do best. Try to improve your best traits and make them most visible. Work on the substandard things too, but aim for par on these things.
