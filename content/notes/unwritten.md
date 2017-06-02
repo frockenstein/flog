@@ -4,6 +4,8 @@ tags: [notes, engineering]
 author: W.J. King
 ---
 
+[Amazon link](https://www.amazon.com/Unwritten-Laws-Engineering-Revised-Updated/dp/0791801624/ref=sr_1_1?ie=UTF8&qid=1496237830&sr=8-1&keywords=unwritten+laws+of+engineering)
+
 ## Manager Stuff
 
 #### Every manager must know what goes on in their domain
@@ -254,4 +256,4 @@ How much managerial effort is needed? Most people are interested in a) more resp
 
 People are often surprised that they're less happy with their new higher-level job, especially when technicians become managers. Beware of how you promote and why. In reality, nobody successfully moving through an engineering carreer can avoid management and administration altogether. Don't pigeonhole yourself though: just because management seems gross now, doesn't mean you won't change later and find satisfaction there. Just because you're not Mr. Super Outgoing doesn't mean you can't excel as a manager. You can become good just by selecting your style and playing to your strengths.
 
-In analyzing yourself and others, good advice is: do what you do best. Try to improve your best traits and make them most visible. Work on the substandard things too, but aim for par on these things.
+In analyzing yourself and others, good advice is: do what you do best. Try to improve your best traits and make them most visible. Work on the substandard things too, but aim for par on these things. If you're weak in some area, you can also make it unnecessary for your job, thus making it invisible.
