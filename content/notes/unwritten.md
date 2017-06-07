@@ -34,7 +34,7 @@ Large meetings frequently suck and considerable skill is required to keep them f
 
 Small meetings can usually hammer things out more effectively, but there's a serious possibility that interested parties won't be represented, and "considerable mischief" may result. Apart from actual bad decisions, rework and the like, strong resentments may be aroused.
 
-One good strategy is to call in key individuals when their part is being discused. Another is to limit the meeting to two layers of the org chart.
+One good strategy is to call in key individuals when their part is being discussed. Another is to limit the meeting to two layers of the org chart.
 
 In any meeting it's important to face issues and dispose of them. Count any meeting a failure if they don't end up with a clear idea of who's doing what, when.
 
