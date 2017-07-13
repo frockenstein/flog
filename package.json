@@ -4,7 +4,7 @@
   "private": "true",
   "description": "Blog like it's 1999",
   "engines": {
-    "node": "0.10.x",
+    "node": "7.7.x",
     "npm": "2.1.x"
   },
   "dependencies": {
