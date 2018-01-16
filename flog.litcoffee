@@ -1,4 +1,4 @@
-Require all that shit
+Requires
 
     fs = require('fs')
     path = require('path')
@@ -20,7 +20,7 @@ A brainfart is just `console.log`
         console.log(pffft)
 
 Render takes care of munging data and templates and does
-the mustache thang
+the mustache work
 
       render: (name, data) ->
         @templates ?= [] # cache 'em if ya got 'em
