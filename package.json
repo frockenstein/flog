@@ -28,6 +28,7 @@
     "mime": ">= 1.2.7",
     "moment": "*",
     "mustache": "*",
+    "nodemon": "*",
     "rss": ">= 0.0.4",
     "underscore": ">= 1.4.3"
   },
@@ -40,12 +41,11 @@
   ],
   "author": "Frock",
   "license": "MIT",
-  "main": "gulpfile.js",
+  "main": "gulpfile.coffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp",
     "start": "coffee flog.litcoffee",
-    "watch": "nodemon --watch content --watch flog.litcoffee -e litcoffee,md,yml flog.litcoffee",
+    "watch": "$(npm bin)/nodemon --watch content --watch static/css/*.less --watch flog.litcoffee -e litcoffee,md,yml flog.litcoffee && $(npm bin)/gulp",
     "deploy": "git push origin master && git push heroku master"
   },
   "bugs": {
