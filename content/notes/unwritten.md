@@ -68,9 +68,9 @@ When time permits, discuss things in advance with key personnel. Embarrassment a
 
 1. Define the objectives
 2. Plan the job by:
-    * outlining steps to accomplish
-    * define required people, money, etc
-    * prepare a definite schedule
+    * Outlining steps to accomplish
+    * Define required people, money, etc
+    * Prepare a definite schedule
 3. Execute the plan
 4. Monitor the progress and respond to deviations
     * Watch for logjams, hit lagging items HARD with additional time, people, money.
