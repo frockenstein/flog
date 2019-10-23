@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(http://fonts.gstatic.com/s/playfairdisplay/v15/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhQ.ttf) format('truetype');
+}
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 130%;
+  line-height: 150%;
+}
+a {
+  color: #FF851B;
+  tex-decoration: none;
+}
+h1 {
+  line-height: 140%;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  margin: 0 0 50px 0;
+}
+header h1 a {
+  text-decoration: none;
+}
+footer {
+  font-size: 70%;
+  text-align: center;
+  color: #999;
+}
+.song {
+  margin-bottom: 50px;
+  thing: 1;
+}
+.entry-meta {
+  color: #777;
+  font-size: 80%;
+}
+.blog-item {
+  margin-bottom: 30px;
+}
+.song-lyrics {
+  display: none;
+  font-style: italic;
+  white-space: pre-wrap;
+  margin-top: 20px;
+  font-size: 80%;
+}
+.newsletter input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px;
+  border-radius: 3px;
+}
+.newsletter input[name=email] {
+  width: 200px;
+  border: 1px solid #999;
+  margin-right: 10px;
+}
+.newsletter .tinyletter {
+  font-size: 80%;
+}
+@media (min-width: 800px) {
+  header {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  #container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .entry-meta-tags,
+  .blog-date {
+    display: inline-block;
+  }
+  .song-lyrics {
+    font-size: 100%;
+  }
+}
