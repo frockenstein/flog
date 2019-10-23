@@ -35,7 +35,7 @@
   "license": "MIT",
   "main": "flog.coffee",
   "scripts": {
-    "build": "$(npm bin)/lessc static/css/style.less static/css/style.css",
+    "build": "$(npm bin)/lessc static/css/style.less static/style.css",
     "start": "coffee flog.litcoffee",
     "watch": "$(npm bin)/nodemon --watch content --watch static/css/*.less --watch flog.litcoffee -e litcoffee,md,yml flog.litcoffee && npm run build",
     "deploy": "git push origin master && git push heroku master"
