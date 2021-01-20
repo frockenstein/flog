@@ -21,7 +21,7 @@
     "mime": ">= 1.2.7",
     "moment": "*",
     "mustache": "*",
-    "nodemon": "*",
+    "nodemon": "^2.0.7",
     "underscore": ">= 1.4.3"
   },
   "repository": {

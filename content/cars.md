@@ -19,7 +19,7 @@ tags: [cars]
 	</div>
 	<div>
 		<img src="http://static.flickr.com/40/75220610_df71a2e790_m.jpg" />
-		From there I moved on to an '81 Mazda 626. <i>Rear-wheel dive</i> - rare for an import. It was a nice enough car - certainly worth the $600 I paid for it. An idler pulley seized and I fixed it without anyone's help. It was all downhill from then.
+		From there I moved on to an '81 Mazda 626. <i>Rear-wheel dive</i> - rare for an import. It was a nice enough car - certainly worth the $600 I paid for it. An idler pulley seized and I fixed it without anyone's help. That was my first taste of the greasemonkey way of life - it was all downhill from then.
 	</div>
 	<div><a name="#cadillac"></a>
 		<img src="http://static.flickr.com/40/75220606_5ec8e3adda_m.jpg" />
@@ -27,7 +27,7 @@ tags: [cars]
 	</div>
 	<div>
 		<img src="http://static.flickr.com/38/75220611_e02f2ce631_m.jpg" />
-		I traded the caddy for an '85 Honda Prelude. Aside from some funky paint flaking on the hood, this baby was a peach. Had dual side-draft Keihin carbs just like the Honda sportsbikes. And the vacuum lines... my God the vacuum lines.
+		I traded the Caddy for an '85 Honda Prelude. Aside from some funky paint flaking on the hood, this baby was a peach. Had dual side-draft Keihin carbs just like the Honda sportsbikes. And the vacuum lines... my God the vacuum lines.
 	</div>
 	<div>
 		Then I briefly moved up to a '93 Acura Integra GS-R. This was the first year they put VTECs in the Integra, and man I loved that motor. The whole car was just perfect - except for the automatic seatbelts. Those f**ckin' things were aggravating! I bought the car on a raise that never came, so I only had it a short while. No pics even. Lotta hotshoein' though.
