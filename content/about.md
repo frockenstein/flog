@@ -15,7 +15,7 @@ otherthing:
 It' a <a href="http://en.wikipedia.org/wiki/Slip_angle" title="slipangle definition on wikipedia">racing term</a> that means the difference between where your tire is pointing vs where your tire is going. I like it as a metaphor for life: the difference between where you think your going and where you're really going.
 
 <h4>About Me</h4>
-<p>I'm a most-of-the-time programmer with <a href="http://www.boomtownroi.com">BoomTown</a>, some-of-the-time <a href="/music">♫ musician</a>, once-in-awhile <a href="/ranger">mechanic</a>, not-enough-of-the-time motorcycle rider and golfer. I also <a href="/store">sell and recommend</a> fun products, <a href="http://www.flickr.com/photos/frockenstein">take pictures</a>, post <a href="http://www.youtube.com/frockenstein">videos</a>, <a href="http://www.twitter.com/frockenstein">tweet</a>, and <a href="http://del.icio.us/frockenstein">waste way too much time</a> on the internet.</p>
+<p>I'm a most-of-the-time programmer with <a href="http://www.boomtownroi.com">BoomTown</a>, some-of-the-time <a href="/music">♫ musician</a>, once-in-awhile <a href="/ranger">mechanic</a>, not-enough-of-the-time motorcycle rider. I also <a href="/store">sell and recommend</a> fun products, <a href="http://www.flickr.com/photos/frockenstein">take pictures</a>, post <a href="http://www.youtube.com/frockenstein">videos</a>, <a href="http://www.twitter.com/frockenstein">tweet</a>, and <a href="http://del.icio.us/frockenstein">waste way too much time</a> on the internet.</p>
 
 <h4>Timeline</h4>
 <p>Here's my life in a timeline:</p>
