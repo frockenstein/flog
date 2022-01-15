@@ -16,7 +16,7 @@
     "highlight.js": "^10.7.2",
     "js-yaml": "^3.14.1",
     "less": "^4.1.1",
-    "marked": "^2.0.3",
+    "marked": "^4.0.10",
     "merge-stream": "^1.0.0",
     "mime": "^2.5.2",
     "moment": "^2.29.1",
